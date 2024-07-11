@@ -1,0 +1,21 @@
+
+
+nc: 6
+
+path: ./data/5k_HRW_yolo_Dataset_jpg  # dataset root dir
+train: images/train  # train images (relative to 'path') 128 images
+val: images/val  # val images (relative to 'path') 128 images
+
+
+# Classes
+names:
+  0: hand-raising
+  1: reading
+  2: writing
+  3: using phong
+  4: bowing the head
+  5: leaning over the table
+
+
+
+
